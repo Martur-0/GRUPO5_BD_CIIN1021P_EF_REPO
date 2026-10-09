@@ -9,6 +9,7 @@
 ## Estructura del Repositorio
 
 ###El código y los entregables están organizados estrictamente por bloques temáticos:
+
 - /automatizacion: Contiene los scripts SQL de procedimientos almacenados (con TRY/CATCH y transacciones), triggers de auditoría y funciones.
 - /seguridad: Incluye los scripts SQL para la creación de roles (administrador, analista, auditor), políticas de respaldo (script de restore) y verificación de normativas.
 - /BI: Almacena los scripts ETL, el diagrama/DDL del modelo dimensional (Data Warehouse bajo metodología Kimball) y el archivo del dashboard.
@@ -17,6 +18,7 @@
 ## Herramientas Requeridas
 
 ###Todas las herramientas utilizadas en este proyecto son de uso gratuito, de código abierto o se ejecutaron en su capa gratuita:
+
 - Gestor Relacional: SQL Server
 - Gestor NoSQL: MongoDB
 - Entorno Big Data: PySpark ejecutado en (indicar si usaron Google Colab, local o Databricks)
@@ -25,6 +27,7 @@
 ## Instrucciones de Ejecución
 
 ###Sigue estos pasos para desplegar el proyecto en un entorno local:
+
 - Bloque de Automatización: Ejecutar primero los scripts de la carpeta /automatizacion para crear las tablas principales, los procedimientos almacenados y los triggers.
 - Bloque de Seguridad: Ejecutar los scripts de la carpeta /seguridad para establecer los roles, asignar permisos y simular la política de backups.
 - Bloque de BI: Correr el script ETL de la carpeta /BI para poblar el Data Warehouse. Luego, abrir el archivo del dashboard para visualizar los KPIs.
