@@ -1,4 +1,4 @@
-# GRUPOBD_CIIN1021P_EF_REP
+# GRUPOBD_CIIN1021P_EF_REPO
 
 # Proyecto Integrador: DataSalud Perú - DIRESA La Libertad
 
