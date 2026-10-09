@@ -8,7 +8,7 @@
 
 ## Estructura del Repositorio
 
-###El código y los entregables están organizados estrictamente por bloques temáticos:
+### El código y los entregables están organizados estrictamente por bloques temáticos:
 
 - /automatizacion: Contiene los scripts SQL de procedimientos almacenados (con TRY/CATCH y transacciones), triggers de auditoría y funciones.
 - /seguridad: Incluye los scripts SQL para la creación de roles (administrador, analista, auditor), políticas de respaldo (script de restore) y verificación de normativas.
@@ -17,7 +17,7 @@
 
 ## Herramientas Requeridas
 
-###Todas las herramientas utilizadas en este proyecto son de uso gratuito, de código abierto o se ejecutaron en su capa gratuita:
+### Todas las herramientas utilizadas en este proyecto son de uso gratuito, de código abierto o se ejecutaron en su capa gratuita:
 
 - Gestor Relacional: SQL Server
 - Gestor NoSQL: MongoDB
@@ -26,7 +26,7 @@
 
 ## Instrucciones de Ejecución
 
-###Sigue estos pasos para desplegar el proyecto en un entorno local:
+### Sigue estos pasos para desplegar el proyecto en un entorno local:
 
 - Bloque de Automatización: Ejecutar primero los scripts de la carpeta /automatizacion para crear las tablas principales, los procedimientos almacenados y los triggers.
 - Bloque de Seguridad: Ejecutar los scripts de la carpeta /seguridad para establecer los roles, asignar permisos y simular la política de backups.
