@@ -2,7 +2,7 @@
 
 # Proyecto Integrador: DataSalud Perú - DIRESA La Libertad
 
-### Descripción del Proyecto
+## Descripción del Proyecto
 
 Este repositorio contiene los artefactos técnicos desarrollados para el sistema integrado de base de datos segura, automatizada e inteligente para la Dirección Regional de Salud La Libertad, utilizando los datos abiertos del MINSA.
 
